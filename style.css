@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --cor-1: #8B4513;
+    --cor-2: #ffffff;
+    --cor-3: #f0f0f0;
+    --cor-4: #5a2a07;
+    --cor-5: #411e05;
+    --cor-6: #006400;
+    --cor-7: #000000;
+    --fonte: 'Merriweather', serif;
+}
+
+body {
+    background-color: var(--cor-3);
+}
+
+section {
+    overflow-x: hidden;
+}
+
+.img-logo {
+    width: 90px;
+    margin-right: 20px;
+}
+
+.header,
+.nagivation_header {
+    background-color: var(--cor-2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header {
+    box-shadow: 1px 1px 4px var(--cor-7);
+    height: 10%;
+    justify-content: center;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+
+}
+
+.nagivation_header {
+    margin-right: -50px;
+    gap: 3em;
+    z-index: 2;
+}
+
+.nagivation_header a {
+    text-decoration: none;
+    color: var(--cor-1);
+    transition: color 0.3s ease, background-color 0.3s ease;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Merriweather', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.nagivation_header a:hover {
+    color: var(--cor-5);
+}
+
+.btn_icon_header {
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    font-size: 24px;
+}
+
+#imgp {
+    background-image: url('img/fundo3.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    color: var(--cor-2);
+
+
+}
+
+#imgp p {
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+    width: 80%;
+    margin-top: 30px;
+
+}
+
+#imgp h1 {
+    text-align: center;
+    padding-top: 250px;
+    font-size: 5em;
+    text-shadow: 2px 2px 4px var(--cor-7);
+}
+
+#icardapio {
+    height: 700px;
+    margin-top: 40px;
+    overflow-x: hidden;
+}
+
+#icardapio h2 {
+    text-align: center;
+    color: var(--cor-1);
+    padding: 40px;
+    padding-top: 200px;
+    font-size: 4em;
+    margin-bottom: -30px;
+}
+
+#icardapio img {
+    max-width: 400px;
+    padding: 20px;
+}
+
+#icardapio p {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#icardapio a {
+    background-color: var(--cor-1);
+    color: var(--cor-2);
+    text-decoration: none;
+    display: block;
+    max-width: 240px;
+    min-width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#icardapio a:hover {
+    background-color: var(--cor-4);
+
+}
+
+
+#imgf {
+    display: block;
+    background: black url('img/cafe 1.jpg') no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 850px;
+    margin-top: 20px;
+}
+
+#cafetrad {
+    background-color: #5a2a07b2;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.425);
+}
+
+#cafe h2 {
+    text-align: center;
+    background-color: #5a2a07c9;
+    color: white;
+    margin-bottom: .1px;
+    font-size: 2.8em;
+    padding: 30px;
+}
+
+#cafetrad p {
+    text-align: justify;
+    color: white;
+    font-size: 1.5em;
+    padding-bottom: 130px;
+}
+
+
+footer {
+    background: url('img/fundo1.jpg') no-repeat center center / cover;
+    padding: 40px 40px;
+    padding-top: 90px;
+    color: var(--cor-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer1 {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 380px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+}
+
+.footer2 {
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+}
+
+.footer1 h1,
+.footer2 h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer2 label {
+    margin-bottom: 10px;
+}
+
+.footer1 h3,
+.footer2 label {
+    color: yellow;
+}
+
+.footer1 p,
+.footer2 p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+.footer2 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer2 input,
+.footer2 select {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 1em;
+    background: #ffffffcc;
+}
+
+.footer2 #imsg {
+    resize: vertical;
+    height: 90px;
+}
+
+.footer2 input[type="submit"] {
+    background-color: var(--cor-1);
+    color: var(--cor-2);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    border-radius: 7px;
+    padding: 12px;
+}
+
+.footer2 input[type="submit"]:hover {
+    background-color: var(--cor-4);
+}
+
+@media screen and (max-width:768px) {
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #imgp {
+        background-position: center top;
+
+    }
+
+    #imgf {
+        background-position: top center;
+    }
+
+    .footer1,
+    .footer2 {
+        margin-right: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #icardapio img {
+        width: 300px;
+    }
+
+    .footer2 input,
+    .footer2 textarea,
+    .footer2 select {
+        width: 100%;
+    }
+
+    .btn_icon_header {
+        display: block;
+    }
+
+    .nagivation_header {
+        position: absolute;
+        flex-direction: column;
+        background-color: white;
+        top: 0;
+        height: 1000px;
+        width: 60vw;
+        padding: 10px;
+        animation-duration: .5s;
+        margin-left: -1000vw;
+        cursor: pointer;
+    }
+
+    .nagivation_header a:hover {
+        background-color: var(--cor-5);
+        color: var(--cor-2);
+        margin-left: 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
+        transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    }
+
+    #cafe p {
+        padding: 10px;
+    }
+
+    #cafetrad {
+        flex-direction: column;
+        font-size: 1.0em;
+
+
+    }
+}
+
+@keyframes showSidebar {
+    from {
+        margin-left: -200vw;
+    }
+
+    top {
+        margin-left: -65vw;
+    }
+
+}
