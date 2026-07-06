@@ -4,9 +4,6 @@ Este site é inspirado no aconchegante ambiente das cafeterias e convida os usu�
 # Descrição
 O "Café de Vó" é dedicado a compartilhar e celebrar as deliciosas receitas tradicionais de avós. Ele oferece uma variedade de pratos caseiros, como bolos, tortas e pães de queijo, além de diversas opções de café.
 
-# Acesso ao Site
-Para acessar o site "Cafe de Vó", basta seguir o link: https://eduardoskt.github.io/Agrinho/404.html
-
 # Navegação no Site
 Ao entrar no site, você encotrará um menu de navegação na parte superior da página, que inclui as seguintes seções:
 - **HOME**: Com uma visão geral do site.
